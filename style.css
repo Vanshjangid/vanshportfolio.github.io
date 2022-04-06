@@ -1,0 +1,200 @@
+*{
+    /* background-color: rgb(60, 238, 185); */
+    margin: 0px;
+    padding: 0px;
+    background-color: black;
+}
+.navbar{
+    display: flex;
+
+}
+.navbar h3{
+    padding-top: 14px;
+    margin-left: 20vw;
+    font-size: 18px;
+    color: #3DCFD3;
+    /* text-shadow: -1px 1px #000,1px 1px #000,1px -1px #000,-1px -1px #000; */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.navbar ul{
+    display: flex;
+    margin-left: 20vw;
+}
+.navbar li{
+    list-style: none;
+    
+    padding-right: 40px;
+    padding-top: 14px;
+    font-size: 14px;
+    color: white;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+} 
+.navbar li a{
+    color: white;
+ text-decoration: none;
+}
+.navbar li a:hover{
+    color: #3DCFD3;
+    font-size: 18px;
+}
+.info{
+        display: flex; 
+        width: 80vw;
+        height: 80vh;
+        margin: 7.5vh 8vw;
+        justify-content: space-around;
+}
+.davinfo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.myname{
+ color: white;
+ font-weight: 100;
+ margin: 8px 0px;
+ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ 
+}
+
+   .davinfo h3{
+    margin: 8px 0px;
+    color: white;
+    font-weight: 200;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   }
+.title{
+    margin: 8px 0px;
+    color: white;
+    font-size: 64px;
+    font-weight: 600;
+    /* text-shadow: -1px 1px #3DCFD3,1px 1px #3DCFD3,1px -1px #3DCFD3,-1px -1px #3DCFD3; */
+}
+.aboutinfo h3{
+    margin: 32px 0px;
+    color: white;
+    font-weight: 200;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   }
+   .aboutinfo h3 a{
+    margin: 32px 0px;
+    color: #3DCFD3;
+    font-weight: 200;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   }
+.davimg img{
+    height: 80vh;
+    
+    
+}
+.mycontact{
+    margin: 42px 0px;
+    color: #3DCFD3;
+    font-weight: 200;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 8vw;
+   }
+   .forminfo{
+       color: white;
+       margin-top: 30px;
+        font-weight: 500;
+   }
+   .forminfo input,textarea{
+       width: 60vw;
+       border: 1px solid white;
+       border-radius: 6px;
+       color: white;
+       padding-left: 10px;
+       font-size: 16px;
+   }
+   .forminfo input{
+       height: 40px;
+       color: white;
+      
+       
+   }
+   .btn{
+    margin-top: 30px;
+    background-color: #3DCFD3;
+    height: 6vh;
+    width: 8vw;
+    border: 1px solid #3DCFD3;
+    border-radius: 14px;
+    cursor: pointer;
+    font-size: large;
+    color: black;
+    font-weight: 600;
+   }
+   .mainbtn{
+    margin-top: 30px;
+    background-color: #3DCFD3;
+    height: 4vh;
+    width: 8vw;
+    border: 1px solid #3DCFD3;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: large;
+    color: black;
+    font-weight: 600;
+   }
+   .mainbtn:hover{
+    background-color: black;
+    color: #3DCFD3;
+}
+   .btn:hover{
+       background-color: black;
+       color: #3DCFD3;
+   }
+   @media (max-width: 1325px){
+       
+   *{
+       background-color: rgba(0, 0, 0, 0);
+       overflow: auto;
+   }
+    body{
+       
+       
+        z-index: 12;
+        color: black;
+        background-position: 66% 50%;
+        background-size: cover;
+        background-image: linear-gradient(0deg,#000,transparent 150%,transparent),url('photo.png');
+        background-repeat: repeat,no-repeat;
+    background-attachment: scroll,fixed;
+    margin: 0;
+    min-height: 100%;
+        display: block;
+
+       }
+      .davimg{
+          display: none;
+          color: black;
+      }
+      .davinfo{
+        background: none;
+        color: black;
+      }
+      .navbar ul{
+          margin-left: 2vw;
+      }
+      .navbar h3{
+        margin-left: 3vw;
+        padding-top: 2px;
+        color: #f0a639;
+    }
+    .mainbtn{
+        width: 120px;
+        height: 40px;
+        background-color: #f0a639;
+        color: white;
+        border: 1px solid #f0a639;
+    }
+    .btn{
+        width: 120px;
+        height: 40px;
+        background-color: #f0a639;
+        color: white;
+        border: 1px solid #f0a639;
+    }
+   }
